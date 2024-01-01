@@ -73,3 +73,96 @@ password : admin
 publicIP:3100/ready
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704097081251/de19aa9b-1692-4612-b1e2-6ffbf84887bb.jpeg align="center")
+
+### **Prometheus :**
+
+Prometheus is an open-source monitoring and alerting toolkit designed for reliability and scalability. Here's an overview of Prometheus and a basic installation guide.
+
+### **Prometheus Overview:**
+
+* **Data Model:** Prometheus follows a multi-dimensional data model with time series data identified by metric name and key-value pairs.
+    
+* **Query Language:** It has a powerful query language called PromQL, allowing for flexible analysis and visualization of collected metrics.
+    
+* **Alerting:** Prometheus supports alerting based on defined rules, sending notifications when certain conditions are met.
+    
+* **Scalability:** Prometheus is designed to be highly scalable and can be federated to aggregate data from multiple instances.
+    
+    * ### **Prometheus Installation:**
+        
+        1. **Download and Extract:**
+            
+            ```dockerfile
+            Wget
+            https://raw.githubusercontent.com/prometheus/prometheus/main/documentation/examples/prom
+            etheus.yml
+            docker run -d --name=prometheus -p 9090:9090 -v
+            <PATH_TO_prometheus.yml_FILE>:/etc/prometheus/prometheus.yml
+            prom/prometheus --config.file=/etc/prometheus/prometheus.yml
+            #run the port number 
+            Grafana at http://localhost:3000
+            Prometheus at http://localhost:9090
+            Loki at http://localhost:3100
+            cAdvisor at http://localhost:8080
+            ```
+            
+            ## **cAdvisor** :
+            
+        
+        Container Advisor is an open-source tool that provides container-level performance monitoring and analysis. It is part of the Google Container Tools project and is designed to give you insights into the resource usage and performance characteristics of running containers.
+        
+    * Here's a brief overview and a simple installation guide for cAdvisor:
+        
+        ### **cAdvisor Overview:**
+        
+        * **Container Metrics:** cAdvisor collects and exports metrics related to CPU usage, memory usage, file system usage, network statistics, and more for each running container.
+            
+        * **Web UI:** cAdvisor includes a web-based user interface that allows you to visualize container metrics and inspect performance data.
+            
+        * **Integration with Prometheus:** cAdvisor is often used in conjunction with Prometheus for scalable and long-term storage of container metrics.
+            
+        * ### **cAdvisor Installation:**
+            
+            1. **Run cAdvisor Container:**
+                
+                ```dockerfile
+                docker run -d --name=cadvisor -p 8080:8080 --volume=/var/run/docker.sock:/var/run/docker.sock google/cadvisor:latest
+                ```
+                
+                This command starts the cAdvisor container in detached mode, names it "cadvisor," maps port 8080 on the host to port 8080 in the container, and mounts the Docker socket to allow cAdvisor to collect container metrics.
+                
+            2. **Access cAdvisor Web UI:** Open your browser and go to [`http://localhost:8080`](http://localhost:8080). You should see the cAdvisor web interface.
+                
+            3. **View Container Metrics:**
+                
+                * Click on the container names listed to view detailed metrics for each container.
+                    
+                * Explore different tabs to view CPU usage, memory usage, file system statistics, and more.
+                    
+            
+            ### **Integration with Prometheus:**
+            
+            If you are using Prometheus for monitoring, you can also configure cAdvisor to expose metrics in Prometheus format. Here's an example:
+            
+            ```dockerfile
+            docker run -d --name=cadvisor -p 8080:8080 --volume=/var/run/docker.sock:/var/run/docker.sock google/cadvisor:latest -prometheus_endpoint="/metrics"
+            ```
+            
+            Now, you can configure Prometheus to scrape cAdvisor metrics by adding it as a target in your Prometheus configuration.
+            
+            ````dockerfile
+            #create cadvisor.yml file
+            ```
+            scrape_configs:
+            - job_name: cadvisor
+              scrape_interval: 5s
+              static_configs:
+              - targets:
+                - cadvisor:8080
+            ````
+            
+            ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704119935261/2d2a1704-af64-40b1-8ef9-516d087d34e4.png align="center")
+            
+            ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704120057926/352cff58-eb2f-4bb5-b13a-22fc021961a9.png align="center")
+            
+            ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704120084299/56c3f168-90a7-43bf-8032-841f51a1f89a.png align="center")
