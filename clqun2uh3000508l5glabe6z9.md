@@ -40,18 +40,17 @@ sudo apt update
 sudo apt install docker.io
 sudo systemctl start docker
 sudo systemctl enable docker
-
-
+sudo usermod -aG docker ubuntu
+docker network create loki
 #Loki and Promtail Installation
 #install Loki packages
-wget
-https://raw.githubusercontent.com/grafana/loki/v2.8.0/cmd/loki/loki-localconfig.yaml -O loki-config.yaml
-docker run -d --name loki -v /path/to/loki/config:/mnt/config -p 3100:3100 grafana/loki:2.8.0 --config.file=/mnt/config/loki-config.yaml
+wget 
+https://raw.githubusercontent.com/grafana/loki/v2.8.0/cmd/loki/loki-local-config.yaml -O loki-config.yaml
+docker run -d --name loki --net loki -p 3100:3100 grafana/loki
 #install Promtail packages
-wget
-https://raw.githubusercontent.com/grafana/loki/v2.8.0/clients/cmd/promtail
-/promtail-docker-config.yaml -O promtail-config.yaml
-docker run -d --name promtail -v /path/to/loki/config:/mnt/config -v /var/log:/var/log grafana/promtail:2.8.0 --config.file=/mnt/config/promtail-config.yaml
+wget 
+https://raw.githubusercontent.com/grafana/loki/v2.8.0/clients/cmd/promtail/promtail-docker-config.yaml -O promtail-config.yaml
+docker run -d --name promtail --net loki -v $(pwd):/mnt/config -v /var/log:/var/log --link loki grafana/promtail:2.8.0 -config.file=/mnt/config/promtail-config.yaml
 #Check docker logs
 docker logs loki
 docker logs promtail
@@ -64,5 +63,13 @@ Port number : 3000 (Grafana)
 Port number : 80 (HTTP)
 
 Port number : 3100 (Loki)
+
+http://publicIP:3000
+
+username : admin
+
+password : admin
+
+publicIP:3100/ready
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704097081251/de19aa9b-1692-4612-b1e2-6ffbf84887bb.jpeg align="center")
