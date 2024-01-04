@@ -98,3 +98,153 @@ If you've set up your Python environment, you can save this line in a file with 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704337750003/cdfb5fa8-686c-4ae3-b4e4-a1e654752914.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704337864030/1ee773c0-4b67-4076-a4c3-20d7c999edaf.png align="center")
+
+I'd be happy to provide a quick overview of basic Python syntax. Python is known for its readability and simplicity. Here are some fundamental aspects of Python syntax:
+
+### **1\. Comments**
+
+```dockerfile
+# This is a single-line comment
+
+"""
+This is a
+multi-line comment
+"""
+
+# or
+
+'''
+This is also
+a multi-line comment
+'''
+```
+
+### **2\. Variables and Data Types**
+
+```dockerfile
+# Variables
+x = 5
+name = "John"
+
+# Data types
+integer_num = 10
+float_num = 3.14
+string_text = "Hello, World!"
+boolean_value = True
+```
+
+### **3\. Printing**
+
+```dockerfile
+print("Hello, World!")
+```
+
+### **4\. Indentation**
+
+Python uses indentation to define blocks of code (instead of braces or keywords like `end` in other languages).
+
+```dockerfile
+if x > 0:
+    print("Positive number")
+else:
+    print("Non-positive number")
+```
+
+### **5\. Conditional Statements**
+
+```dockerfile
+# if-elif-else
+if condition1:
+    # code block
+elif condition2:
+    # code block
+else:
+    # code block
+```
+
+### **6\. Loops**
+
+```dockerfile
+# For loop
+for i in range(5):
+    print(i)
+
+# While loop
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+```
+
+### **7\. Functions**
+
+```dockerfile
+def greet(name):
+    print("Hello, " + name)
+
+# Calling a function
+greet("Alice")
+```
+
+In Python, variables are used to store and represent data. Here's a quick overview of how variables work in Python:
+
+### **1\. Variable Assignment**
+
+You can assign values to variables using the `=` operator.
+
+```dockerfile
+x = 5         # integer
+name = "John" # string
+pi = 3.14     # float
+is_valid = True  # boolean
+```
+
+### **2\. Variable Naming Rules**
+
+* Variable names can only contain letters, numbers, and underscores.
+    
+* They cannot start with a number.
+    
+* Variable names are case-sensitive (`myVar` and `myvar` are different).
+    
+* Avoid using reserved words like `if`, `else`, `for`, etc. as variable names.
+    
+
+### **3\. Dynamic Typing**
+
+Python is dynamically typed, meaning you don't need to explicitly declare the type of a variable. The interpreter determines the type based on the assigned value.
+
+```dockerfile
+x = 5       # x is an integer
+x = "Hello" # now x is a string
+```
+
+### **4\. Multiple Assignment**
+
+You can assign values to multiple variables in a single line.
+
+```dockerfile
+a, b, c = 1, 2, 3
+a,b = b,a #swiping two strings 
+```
+
+### **5\. Constants**
+
+While Python doesn't have constants in the traditional sense, it's common practice to use uppercase letters for constant-like variables to indicate that their values should not be changed.
+
+```dockerfile
+PI = 3.14
+```
+
+### **6\. Print Variables**
+
+You can use the `print` function to display the value of a variable.
+
+```dockerfile
+name = "Alice"
+print("Hello, " + name)
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704375480641/4f4708c0-6cf3-4ded-afe6-a781797ff7d3.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704375507887/5c129844-bf1a-448d-bb7f-6ab88478ae0c.png align="center")
