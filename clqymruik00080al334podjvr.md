@@ -254,49 +254,16 @@ print("Hello, " + name)
 1. **List:** A versatile and mutable sequence that can hold a variety of data types. You can add, remove, and modify elements in a list.
     
     ```dockerfile
-    pythonCopy codemy_list = [1, 2, 'hello', 3.14, True]
+    my_list = [1, 2, 'hello', 3.14, True]
     ```
     
 2. **Tuple:** Similar to a list, but immutable. Once you create a tuple, you can't change its elements. Tuples are often used for fixed collections of items.
     
     ```dockerfile
-    pythonCopy codemy_tuple = (1, 2, 'world', 3.14, False)
-    ```
-    
-3. **Dictionary (dic):** A collection of key-value pairs. It's great for quick lookups and mapping relationships between data.
-    
-    ```dockerfile
-    pythonCopy codemy_dict = {'name': 'John', 'age': 25, 'city': 'Pythonville'}
-    ```
-    
-
-Each has its own strengths, so choosing the right one depends on your specific needs. Anything specific you'd like to know or do with them?
-
-**You**
-
-full python data structure
-
-3 / 3
-
-ChatGPT
-
-**ChatGPT**
-
-Python has a variety of built-in data structures. Here's a brief overview:
-
-1. **Lists:** Ordered, mutable sequences. You can add, remove, and modify elements.
-    
-    ```dockerfile
-    my_list = [1, 2, 'hello', 3.14, True]
-    ```
-    
-2. **Tuples:** Ordered, immutable sequences. Once created, you can't change their elements.
-    
-    ```dockerfile
     my_tuple = (1, 2, 'world', 3.14, False)
     ```
     
-3. **Dictionaries (dict):** Unordered collections of key-value pairs. Great for quick lookups.
+3. **Dictionary (dic):** A collection of key-value pairs. It's great for quick lookups and mapping relationships between data.
     
     ```dockerfile
     my_dict = {'name': 'John', 'age': 25, 'city': 'Pythonville'}
