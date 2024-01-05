@@ -225,7 +225,7 @@ You can assign values to multiple variables in a single line.
 
 ```dockerfile
 a, b, c = 1, 2, 3
-a,b = b,a #swiping two strings 
+a,b = b,a #swiping two strings
 ```
 
 ### **5\. Constants**
@@ -248,3 +248,89 @@ print("Hello, " + name)
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704375480641/4f4708c0-6cf3-4ded-afe6-a781797ff7d3.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704375507887/5c129844-bf1a-448d-bb7f-6ab88478ae0c.png align="center")
+
+### **Data Structures :**
+
+1. **List:** A versatile and mutable sequence that can hold a variety of data types. You can add, remove, and modify elements in a list.
+    
+    ```dockerfile
+    pythonCopy codemy_list = [1, 2, 'hello', 3.14, True]
+    ```
+    
+2. **Tuple:** Similar to a list, but immutable. Once you create a tuple, you can't change its elements. Tuples are often used for fixed collections of items.
+    
+    ```dockerfile
+    pythonCopy codemy_tuple = (1, 2, 'world', 3.14, False)
+    ```
+    
+3. **Dictionary (dic):** A collection of key-value pairs. It's great for quick lookups and mapping relationships between data.
+    
+    ```dockerfile
+    pythonCopy codemy_dict = {'name': 'John', 'age': 25, 'city': 'Pythonville'}
+    ```
+    
+
+Each has its own strengths, so choosing the right one depends on your specific needs. Anything specific you'd like to know or do with them?
+
+**You**
+
+full python data structure
+
+3 / 3
+
+ChatGPT
+
+**ChatGPT**
+
+Python has a variety of built-in data structures. Here's a brief overview:
+
+1. **Lists:** Ordered, mutable sequences. You can add, remove, and modify elements.
+    
+    ```dockerfile
+    my_list = [1, 2, 'hello', 3.14, True]
+    ```
+    
+2. **Tuples:** Ordered, immutable sequences. Once created, you can't change their elements.
+    
+    ```dockerfile
+    my_tuple = (1, 2, 'world', 3.14, False)
+    ```
+    
+3. **Dictionaries (dict):** Unordered collections of key-value pairs. Great for quick lookups.
+    
+    ```dockerfile
+    my_dict = {'name': 'John', 'age': 25, 'city': 'Pythonville'}
+    ```
+    
+4. **Sets:** Unordered collections of unique elements. Useful for operations like union, intersection, and difference.
+    
+    ```dockerfile
+    my_set = {1, 2, 3, 4, 5}
+    ```
+    
+5. **Strings:** Immutable sequences of characters.
+    
+    ```dockerfile
+    my_string = "Hello, Python!"
+    ```
+    
+6. **Arrays:** Similar to lists but specialized for numerical data. Requires the `array` module.
+    
+    ```dockerfile
+    from array import array
+    my_array = array('i', [1, 2, 3, 4])
+    ```
+    
+7. **Queues:** Implemented in the `queue` module, providing First-In-First-Out (FIFO) behavior.
+    
+    ```dockerfile
+    from queue import Queue
+    my_queue = Queue()
+    ```
+    
+8. **Stacks:** Implemented using lists or the `queue` module, providing Last-In-First-Out (LIFO) behavior.
+    
+    ```dockerfile
+    my_stack = [1, 2, 3]
+    my_stack.pop()  # removes the last element
+    ```
