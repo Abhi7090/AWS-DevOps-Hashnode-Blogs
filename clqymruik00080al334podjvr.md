@@ -334,3 +334,7 @@ Python has a variety of built-in data structures. Here's a brief overview:
     my_stack = [1, 2, 3]
     my_stack.pop()  # removes the last element
     ```
+    
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704462240246/417f1ed0-41ce-4a9c-b017-0c502c303d82.png align="center")
+    
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704462287225/7abb458e-a662-4829-8e4e-cbc8e07a1882.png align="center")
