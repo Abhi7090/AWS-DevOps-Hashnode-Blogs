@@ -463,9 +463,9 @@ Compose works in all environments; production, staging, development, testing, as
         
     5. Now add network to two images due to interaction between two images
         
-        docker run -d -p 3306:3306 -e MYSQL\_ROOT\_PASSWORD=test@123 -e MYSQL\_DATABASE=test\_db -e MYSQL\_USER=admin -e MYSQL\_PASSWORD=admin --name mysql-app --network two-tier-app-nw mysql:latest
+        docker run -d -p 3306:3306 -e MYSQL\_ROOT\_PASSWORD=test@123 -e MYSQL\_DATABASE=test\_db -e MYSQL\_USER=admin -e MYSQL\_PASSWORD=admin --network two-tier-app-nw mysql:latest
         
-        docker run -d -p 5000:5000 -e MYSQL\_HOST=mysql-app -e MYSQL\_USER=admin -e MYSQL\_PASSWORD=admin -e MYSQL\_DB=test\_db --name flaskapp --network two-tier-app-nw flask-app:latest
+        docker run -d -p 5000:5000 -e MYSQL\_HOST=mysql -e MYSQL\_USER=admin -e MYSQL\_PASSWORD=admin -e MYSQL\_DB=test\_db --network two-tier-app-nw flask-app:latest
         
     6. Copy Public IP address :
         
