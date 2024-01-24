@@ -140,7 +140,6 @@ Step 13 : Copy the Ingress application load balancer address and paste in the ne
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1706108422910/88c20dd3-2e8c-49cb-85fb-516df232ccd7.jpeg align="center")
 
-  
 Step 14 : Check the data in the Mongo database
 
 ```dockerfile
@@ -153,8 +152,7 @@ db.tasks.find()
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1706108540735/479c7a11-279d-4e28-817d-55913a7b82a8.jpeg align="center")
 
-  
-Step 15 : Clean or delete the EKS cluster:
+Step 15 : Clean or delete the EKS cluster
 
 ```dockerfile
 eksctl delete cluster --name three-tier-cluster --region us-west-2
