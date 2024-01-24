@@ -44,12 +44,10 @@ sudo usermod -aG docker ubuntu
 docker network create loki
 #Loki and Promtail Installation
 #install Loki packages
-wget 
-https://raw.githubusercontent.com/grafana/loki/v2.8.0/cmd/loki/loki-local-config.yaml -O loki-config.yaml
+wget https://raw.githubusercontent.com/grafana/loki/v2.8.0/cmd/loki/loki-local-config.yaml -O loki-config.yaml
 docker run -d --name loki --net loki -p 3100:3100 grafana/loki
 #install Promtail packages
-wget 
-https://raw.githubusercontent.com/grafana/loki/v2.8.0/clients/cmd/promtail/promtail-docker-config.yaml -O promtail-config.yaml
+wget https://raw.githubusercontent.com/grafana/loki/v2.8.0/clients/cmd/promtail/promtail-docker-config.yaml -O promtail-config.yaml
 docker run -d --name promtail --net loki -v $(pwd):/mnt/config -v /var/log:/var/log --link loki grafana/promtail:2.8.0 -config.file=/mnt/config/promtail-config.yaml
 #Check docker logs
 docker logs loki
