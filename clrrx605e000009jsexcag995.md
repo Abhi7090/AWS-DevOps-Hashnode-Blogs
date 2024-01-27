@@ -124,7 +124,7 @@ kubectl apply -f full_stack_lb.yaml
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1706107858900/7374ce10-c21e-41ed-ae9d-b0c68c09a173.jpeg align="center")
 
-Step 11 : Check the backend service is connected with Database or not
+Step 11 : Add ECR images (frontend and backend) from AWS ECR to the frontend-deloyment.yaml and backend-deployment.yaml, Check the backend service is connected with Database or not
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1706107958235/901c5b14-3e56-4e7e-834c-df07632376bc.jpeg align="center")
 
