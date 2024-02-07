@@ -32,11 +32,11 @@ slug: aws-devops-road-map
     
 * [**Exception Handling**](https://www.geeksforgeeks.org/python-exception-handling/)
     
-* [**File handling**](https://www.geeksforgeeks.org/file-handling-python/) 
+* [**File handling**](https://www.geeksforgeeks.org/file-handling-python/)
     
-* [**Python Regex**](https://www.geeksforgeeks.org/python-regex/) 
+* [**Python Regex**](https://www.geeksforgeeks.org/python-regex/)
     
-* [**Python Collections**](https://www.geeksforgeeks.org/python-collections-module/) 
+* [**Python Collections**](https://www.geeksforgeeks.org/python-collections-module/)
     
 * [**Python Advance**](https://www.geeksforgeeks.org/os-module-python-examples/?ref=lbp)
     
@@ -47,17 +47,17 @@ slug: aws-devops-road-map
 
 * [**OS Basics**](https://www.geeksforgeeks.org/introduction-of-operating-system-set-1/)
     
-* [**Process & Threads**](https://www.geeksforgeeks.org/introduction-of-process-management/?ref=lbp) 
+* [**Process & Threads**](https://www.geeksforgeeks.org/introduction-of-process-management/?ref=lbp)
     
-* [**CPU Scheduling**](https://www.geeksforgeeks.org/cpu-scheduling-in-operating-systems/?ref=lbp) 
+* [**CPU Scheduling**](https://www.geeksforgeeks.org/cpu-scheduling-in-operating-systems/?ref=lbp)
     
-* [**Process Synchronization**](https://www.geeksforgeeks.org/introduction-of-process-synchronization/?ref=lbp) 
+* [**Process Synchronization**](https://www.geeksforgeeks.org/introduction-of-process-synchronization/?ref=lbp)
     
-* [**Deadlock**](https://www.geeksforgeeks.org/introduction-of-deadlock-in-operating-system/?ref=lbp) 
+* [**Deadlock**](https://www.geeksforgeeks.org/introduction-of-deadlock-in-operating-system/?ref=lbp)
     
-* [**Memory Management**](https://www.geeksforgeeks.org/introduction-to-memory-and-memory-units/?ref=lbp) 
+* [**Memory Management**](https://www.geeksforgeeks.org/introduction-to-memory-and-memory-units/?ref=lbp)
     
-* [**Disk Management**](https://www.geeksforgeeks.org/file-systems-in-operating-system/?ref=lbp) 
+* [**Disk Management**](https://www.geeksforgeeks.org/file-systems-in-operating-system/?ref=lbp)
     
 * [**Disk Scheduling**](https://www.geeksforgeeks.org/disk-scheduling-algorithms/?ref=lbp)
     
@@ -115,96 +115,96 @@ slug: aws-devops-road-map
 
 * [**Introduction to Git**](https://www.geeksforgeeks.org/introduction-to-github/)
     
-* [**Installation of Git**](https://www.geeksforgeeks.org/introduction-and-installation-of-git/) 
+* [**Installation of Git**](https://www.geeksforgeeks.org/introduction-and-installation-of-git/)
     
-* [**Git Features**](https://www.geeksforgeeks.org/git-features/) 
+* [**Git Features**](https://www.geeksforgeeks.org/git-features/)
     
-* [**Git – Life Cycle**](https://www.geeksforgeeks.org/git-life-cycle/) 
+* [**Git – Life Cycle**](https://www.geeksforgeeks.org/git-life-cycle/)
     
-* [**Git Staging Environment**](https://www.geeksforgeeks.org/staging-in-git/) 
+* [**Git Staging Environment**](https://www.geeksforgeeks.org/staging-in-git/)
     
-* [**Git vs GitHub**](https://www.geeksforgeeks.org/difference-between-git-and-github/) 
+* [**Git vs GitHub**](https://www.geeksforgeeks.org/difference-between-git-and-github/)
     
-* [**Git Command Line and Basic Command**](https://www.geeksforgeeks.org/basic-git-commands-with-examples/) 
+* [**Git Command Line and Basic Command**](https://www.geeksforgeeks.org/basic-git-commands-with-examples/)
     
-* [**Creating a Repository on GitHub**](https://www.geeksforgeeks.org/creating-repository-in-github/) 
+* [**Creating a Repository on GitHub**](https://www.geeksforgeeks.org/creating-repository-in-github/)
     
-* [**Git Init**](https://www.geeksforgeeks.org/what-is-git-init/) 
+* [**Git Init**](https://www.geeksforgeeks.org/what-is-git-init/)
     
-* [**Git Add**](https://www.geeksforgeeks.org/what-is-git-add/) 
+* [**Git Add**](https://www.geeksforgeeks.org/what-is-git-add/)
     
-* [**Git Commit**](https://www.geeksforgeeks.org/what-is-git-commit/) 
+* [**Git Commit**](https://www.geeksforgeeks.org/what-is-git-commit/)
     
 * [**Git Push**](https://www.geeksforgeeks.org/what-is-git-push/)
     
-* [**Git Clone**](https://www.geeksforgeeks.org/what-is-git-clone/) 
+* [**Git Clone**](https://www.geeksforgeeks.org/what-is-git-clone/)
     
 * [**Git Branch**](https://www.geeksforgeeks.org/introduction-to-git-branch/)
     
-* [**Git Branching Merge and Merge Conflict**](https://www.geeksforgeeks.org/git-merge-and-merge-conflict/) 
+* [**Git Branching Merge and Merge Conflict**](https://www.geeksforgeeks.org/git-merge-and-merge-conflict/)
     
-* [**Git Log**](https://www.geeksforgeeks.org/examining-git/) 
+* [**Git Log**](https://www.geeksforgeeks.org/examining-git/)
     
-* [**Git Diff**](https://www.geeksforgeeks.org/git-diff/) 
+* [**Git Diff**](https://www.geeksforgeeks.org/git-diff/)
     
-* [**Git Status**](https://www.geeksforgeeks.org/git-status/) 
+* [**Git Status**](https://www.geeksforgeeks.org/git-status/)
     
-* [**Git .gitignore**](https://www.geeksforgeeks.org/what-is-git-ignore-and-how-to-use-it/) 
+* [**Git .gitignore**](https://www.geeksforgeeks.org/what-is-git-ignore-and-how-to-use-it/)
     
-* [**Git Fork and Git Clone**](https://www.geeksforgeeks.org/difference-between-fork-and-clone-in-github/) 
+* [**Git Fork and Git Clone**](https://www.geeksforgeeks.org/difference-between-fork-and-clone-in-github/)
     
-* [**Git Pull Requests**](https://www.geeksforgeeks.org/making-first-open-source-pull-request/) 
+* [**Git Pull Requests**](https://www.geeksforgeeks.org/making-first-open-source-pull-request/)
     
-* [**Git Rebase**](https://www.geeksforgeeks.org/rebasing-of-branches-in-git/) 
+* [**Git Rebase**](https://www.geeksforgeeks.org/rebasing-of-branches-in-git/)
     
-* [**Git Cherry Pick**](https://www.geeksforgeeks.org/git-cherry-pick/) 
+* [**Git Cherry Pick**](https://www.geeksforgeeks.org/git-cherry-pick/)
     
-* [**Git Stash**](https://www.geeksforgeeks.org/git-working-with-stash/) 
+* [**Git Stash**](https://www.geeksforgeeks.org/git-working-with-stash/)
     
-* [**Git Ignore**](https://www.geeksforgeeks.org/what-is-git-ignore-and-how-to-use-it/) 
+* [**Git Ignore**](https://www.geeksforgeeks.org/what-is-git-ignore-and-how-to-use-it/)
     
-* [**Git Fork**](https://www.geeksforgeeks.org/git-fork/) 
+* [**Git Fork**](https://www.geeksforgeeks.org/git-fork/)
     
 * [**Git Repository**](https://www.geeksforgeeks.org/what-is-a-git-repository/)
     
-* [**Git Index**](https://www.geeksforgeeks.org/git-index/) 
+* [**Git Index**](https://www.geeksforgeeks.org/git-index/)
     
-* [**Git Head**](https://www.geeksforgeeks.org/git-head/) 
+* [**Git Head**](https://www.geeksforgeeks.org/git-head/)
     
-* [**Git Cheatsheet**](https://www.geeksforgeeks.org/advance-git-sheet-for-open-source-contributors/) 
+* [**Git Cheatsheet**](https://www.geeksforgeeks.org/advance-git-sheet-for-open-source-contributors/)
     
 
 ## 5\. Cloud Computing (Week 5 – 7)
 
 ### AWS
 
-* [**Introduction to AWS**](https://www.geeksforgeeks.org/introduction-to-aws-organizations/) 
+* [**Introduction to AWS**](https://www.geeksforgeeks.org/introduction-to-aws-organizations/)
     
 * [**IAM in AWS**](https://www.geeksforgeeks.org/identity-and-access-management-iam-in-amazon-web-services-aws/)
     
-* [**EC2**](https://www.geeksforgeeks.org/what-is-elastic-compute-cloud-ec2/) 
+* [**EC2**](https://www.geeksforgeeks.org/what-is-elastic-compute-cloud-ec2/)
     
-* [**EBS(Elastic Bean Stalk)**](https://www.geeksforgeeks.org/introduction-to-aws-elastic-beanstalk/) 
+* [**EBS(Elastic Bean Stalk)**](https://www.geeksforgeeks.org/introduction-to-aws-elastic-beanstalk/)
     
-* [**EBS(Elastic Block Store)**](https://www.geeksforgeeks.org/introduction-to-aws-elastic-block-storeebs/) 
+* [**EBS(Elastic Block Store)**](https://www.geeksforgeeks.org/introduction-to-aws-elastic-block-storeebs/)
     
 * [**EFS(Elastic File Storage)**](https://www.geeksforgeeks.org/introduction-to-aws-elastic-file-systemefs/)
     
 * [**S3**](https://www.geeksforgeeks.org/amazon-s3-storage-classes/)
     
-* [**AMI E.Load Balancer**](https://www.geeksforgeeks.org/elastic-load-balancer-in-aws/) 
+* [**AMI E.Load Balancer**](https://www.geeksforgeeks.org/elastic-load-balancer-in-aws/)
     
-* [**Cloud Watch**](https://www.geeksforgeeks.org/introduction-to-amazon-cloudwatch/) 
+* [**Cloud Watch**](https://www.geeksforgeeks.org/introduction-to-amazon-cloudwatch/)
     
-* [**Auto Scaling**](https://www.geeksforgeeks.org/create-and-configure-the-auto-scaling-group-in-ec2/) 
+* [**Auto Scaling**](https://www.geeksforgeeks.org/create-and-configure-the-auto-scaling-group-in-ec2/)
     
 * [**SQS**](https://www.geeksforgeeks.org/amazon-web-services-introduction-to-simple-queue-servicesqs/)
     
 * [**SNS**](https://www.geeksforgeeks.org/simple-notification-service-sns-in-aws/)
     
-* [**Other Elastic Computes(ECS,EKS,ECR)**](https://www.geeksforgeeks.org/introduction-to-amazon-elastic-container-service-ecs/) 
+* [**Other Elastic Computes(ECS,EKS,ECR)**](https://www.geeksforgeeks.org/introduction-to-amazon-elastic-container-service-ecs/)
     
-* [**Storage Application Services**](https://www.geeksforgeeks.org/introduction-to-aws-simple-storage-service-aws-s3/) 
+* [**Storage Application Services**](https://www.geeksforgeeks.org/introduction-to-aws-simple-storage-service-aws-s3/)
     
 * [**Database Services**](https://www.geeksforgeeks.org/aws-types-of-databases/)
     
@@ -213,28 +213,28 @@ slug: aws-devops-road-map
 
 * [**Docker Introduction**](https://www.geeksforgeeks.org/introduction-to-docker/?ref=lbp)
     
-* [**Docker Installation**](https://www.geeksforgeeks.org/docker-installation-on-windows/?ref=lbp) 
+* [**Docker Installation**](https://www.geeksforgeeks.org/docker-installation-on-windows/?ref=lbp)
     
-* [**Docker Commands**](https://www.geeksforgeeks.org/docker-tutorial/?ref=lbp) 
+* [**Docker Commands**](https://www.geeksforgeeks.org/docker-tutorial/?ref=lbp)
     
 * [**Dockerfile**](https://www.geeksforgeeks.org/docker-concept-of-dockerfile/)
     
-* [**Docker Images**](https://www.geeksforgeeks.org/next-js-docker-images/?ref=lbp) 
+* [**Docker Images**](https://www.geeksforgeeks.org/next-js-docker-images/?ref=lbp)
     
-* [**Docker Engine, Storage**](https://www.geeksforgeeks.org/data-storage-in-docker/?ref=lbp) 
+* [**Docker Engine, Storage**](https://www.geeksforgeeks.org/data-storage-in-docker/?ref=lbp)
     
-* [**Docker Compose**](https://www.geeksforgeeks.org/how-to-use-docker-default-bridge-networking/?ref=lbp) 
+* [**Docker Compose**](https://www.geeksforgeeks.org/how-to-use-docker-default-bridge-networking/?ref=lbp)
     
-* [**Docker Containers and Managing Containers**](https://www.geeksforgeeks.org/docker-docker-container-for-node-js/?ref=lbp) 
+* [**Docker Containers and Managing Containers**](https://www.geeksforgeeks.org/docker-docker-container-for-node-js/?ref=lbp)
     
-* [**Docker Registry**](https://www.geeksforgeeks.org/how-to-install-linux-packages-inside-a-docker-container/?ref=lbp) 
+* [**Docker Registry**](https://www.geeksforgeeks.org/how-to-install-linux-packages-inside-a-docker-container/?ref=lbp)
     
 * [**Docker Swarm**](https://www.geeksforgeeks.org/introduction-to-docker-swarm-mode/)
     
 
 ## 7\. Kubernetes (Week 10 – 12)
 
-* [**Introduction to Kubernetes**](https://www.geeksforgeeks.org/introduction-to-kubernetes-k8s/) 
+* [**Introduction to Kubernetes**](https://www.geeksforgeeks.org/introduction-to-kubernetes-k8s/)
     
 * [**Kubernetes – Installation Methods**](https://www.geeksforgeeks.org/kubernetes-installation-methods/)
     
@@ -301,4 +301,4 @@ slug: aws-devops-road-map
 * [Jenkins](https://www.geeksforgeeks.org/what-is-jenkins/)
     
 
-#HappyLearning #awsdevopsengineer
+### #HappyLearning #awsdevopsengineer
