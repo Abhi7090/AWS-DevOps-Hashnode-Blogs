@@ -59,27 +59,27 @@ Ensure you have necessary permissions and follow best practices while configurin
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1707491310413/a957ddc6-3867-407c-93d8-486cd360ac18.png align="center")
 
-1. Click on create roles
+2. Click on create roles
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1707491361512/996a7bd7-c5ce-4d55-9337-f8696af58f0f.png align="left")
     
-2. Select trusted identity type as AWS Service
+3. Select trusted identity type as AWS Service
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1707491434307/dae85817-e0df-4a96-a7c7-d8f6bbd02a7f.png align="left")
     
-3. In the add permission section select administrative access and click next
+4. In the add permission section select administrative access and click next
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1707491596513/5a1cc2f1-f93b-482a-8d3a-c8a294a20272.png align="left")
     
-4. Select use case as EC2 and click on next
+5. Select use case as EC2 and click on next
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1707491527844/e517a03e-cec3-4f33-86cc-ab86df1c482c.png align="left")
     
-5. Give role name as MARIO and click on create role
+6. Give role name as MARIO and click on create role
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1707492206528/59442d43-b8e1-4097-90b7-0f776021368c.png align="left")
     
-6. Now Attach EC2 Instance which we created along with IAM role
+7. Now Attach EC2 Instance which we created along with IAM role
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1707492358396/77309121-933c-4eeb-bb3d-2059f408509b.jpeg align="left")
     
@@ -230,5 +230,3 @@ Ensure you have necessary permissions and follow best practices while configurin
                 After 10mins Resources that are provisioned will be removed.
                 
                 ![](https://miro.medium.com/v2/resize:fit:1000/0*u_u8UXmvprRmP-eE align="left")
-                
-                `   `
